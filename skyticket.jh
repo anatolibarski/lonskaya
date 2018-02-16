@@ -1,0 +1,35 @@
+entity SkyTicket {
+	DetailsJson String required // flexible ticket configuration as json
+}
+
+entity Subscription {
+	DetailsJson String required // flexible subscription configuration as json
+}
+
+entity Billing {
+	Amount BigDecimal required
+    Currency String required
+    DueDate LocalDate
+    Closed Boolean required
+}
+
+entity PaymentDetails {
+	InvoiceUrl String
+    PaymentMethod String
+    DetailsJson String
+}
+
+relationship ManyToOne {
+	Subscription{user} to User
+    Billing{subscription} to Subscription
+}
+
+relationship OneToOne {
+	Subscription{ticket} to SkyTicket
+    Billing{details} to PaymentDetails
+}
+
+dto Subscription, User with mapstruct
+
+service Subscription with serviceClass
+service User with serviceClass
