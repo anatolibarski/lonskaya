@@ -9,6 +9,7 @@
     <include file="config/liquibase/changelog/20180217060927_added_entity_SkySubscription.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180217060928_added_entity_Billing.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180217060929_added_entity_PaymentDetails.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20180217111716_added_entity_SalesforceContact.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <include file="config/liquibase/changelog/20180217060927_added_entity_constraints_SkySubscription.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20180217060928_added_entity_constraints_Billing.xml" relativeToChangelogFile="false"/>
