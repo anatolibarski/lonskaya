@@ -1,0 +1,23 @@
+
+{
+    "lonskayaApp": {
+        "salesforceContact" : {
+            "home": {
+                "title": "Salesforce Contacts",
+                "createLabel": "Создать новый Salesforce Contact",
+                "createOrEditLabel": "Создать или отредактировать Salesforce Contact",
+                "search": "Найти Salesforce Contact"
+            },
+            "created": "Новый Salesforce Contact создан с идентификатором {{ param }}",
+            "updated": "Salesforce Contact обновлен с идентификатором {{ param }}",
+            "deleted": "Salesforce Contact удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Salesforce Contact {{ id }}?"
+            },
+            "detail": {
+                "title": "Salesforce Contact"
+            },
+            "name": "Name"
+        }
+    }
+}

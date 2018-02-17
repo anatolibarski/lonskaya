@@ -19,6 +19,7 @@ env:
     - NODE_VERSION=8.9.4
     - SPRING_OUTPUT_ANSI_ENABLED=ALWAYS
     - SPRING_JPA_SHOW_SQL=false
+    - HEROKU_API_KEY=95121a08-991e-4094-926d-522ef9bf2857
 before_install:
   - jdk_switcher use oraclejdk8
   - java -version

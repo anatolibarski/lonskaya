@@ -19,6 +19,10 @@ entity PaymentDetails {
     DetailsJson String
 }
 
+entity SalesforceContact {
+	Name String required
+}
+
 relationship ManyToOne {
 	SkySubscription{user} to User
     Billing{SkySubscription} to SkySubscription

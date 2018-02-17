@@ -4,6 +4,7 @@ import { LonskayaSkyTicketModule } from './sky-ticket/sky-ticket.module';
 import { LonskayaSkySubscriptionModule } from './sky-subscription/sky-subscription.module';
 import { LonskayaBillingModule } from './billing/billing.module';
 import { LonskayaPaymentDetailsModule } from './payment-details/payment-details.module';
+import { LonskayaSalesforceContactModule } from './salesforce-contact/salesforce-contact.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -12,6 +13,7 @@ import { LonskayaPaymentDetailsModule } from './payment-details/payment-details.
         LonskayaSkySubscriptionModule,
         LonskayaBillingModule,
         LonskayaPaymentDetailsModule,
+        LonskayaSalesforceContactModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
