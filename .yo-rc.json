@@ -39,6 +39,6 @@
     "jwtSecretKey": "162ded03c1be6da69b1a73fef7e499328a67ad4f",
     "jhiPrefix": "jhi",
     "herokuDeployType": "jar",
-    "herokuAppName": null
+    "herokuAppName": "lonskaya"
   }
 }
