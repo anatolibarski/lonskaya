@@ -1,0 +1,50 @@
+
+<div *ngIf="billing">
+    <h2><span jhiTranslate="lonskayaApp.billing.detail.title">Billing</span> {{billing.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="lonskayaApp.billing.amount">Amount</span></dt>
+        <dd>
+            <span>{{billing.amount}}</span>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.billing.currency">Currency</span></dt>
+        <dd>
+            <span>{{billing.currency}}</span>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.billing.dueDate">Due Date</span></dt>
+        <dd>
+            <span>{{billing.dueDate | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.billing.closed">Closed</span></dt>
+        <dd>
+            <span>{{billing.closed}}</span>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.billing.details">Details</span></dt>
+        <dd>
+            <div *ngIf="billing.details">
+                <a [routerLink]="['/payment-details', billing.details?.id]">{{billing.details?.id}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.billing.skySubscription">Sky Subscription</span></dt>
+        <dd>
+            <div *ngIf="billing.skySubscription">
+                <a [routerLink]="['/sky-subscription', billing.skySubscription?.id]">{{billing.skySubscription?.id}}</a>
+            </div>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'billing/'+ billing.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

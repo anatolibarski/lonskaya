@@ -1,0 +1,23 @@
+
+{
+    "lonskayaApp": {
+        "skyTicket" : {
+            "home": {
+                "title": "Sky Tickets",
+                "createLabel": "Создать новый Sky Ticket",
+                "createOrEditLabel": "Создать или отредактировать Sky Ticket",
+                "search": "Найти Sky Ticket"
+            },
+            "created": "Новый Sky Ticket создан с идентификатором {{ param }}",
+            "updated": "Sky Ticket обновлен с идентификатором {{ param }}",
+            "deleted": "Sky Ticket удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Sky Ticket {{ id }}?"
+            },
+            "detail": {
+                "title": "Sky Ticket"
+            },
+            "detailsJson": "Details Json"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+{
+    "lonskayaApp": {
+        "skySubscription" : {
+            "home": {
+                "title": "Sky Subscriptions",
+                "createLabel": "Create a new Sky Subscription",
+                "createOrEditLabel": "Create or edit a Sky Subscription",
+                "search": "Search for Sky Subscription"
+            },
+            "created": "A new Sky Subscription is created with identifier {{ param }}",
+            "updated": "A Sky Subscription is updated with identifier {{ param }}",
+            "deleted": "A Sky Subscription is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Sky Subscription {{ id }}?"
+            },
+            "detail": {
+                "title": "Sky Subscription"
+            },
+            "detailsJson": "Details Json",
+            "ticket": "Ticket",
+            "user": "User"
+        }
+    }
+}

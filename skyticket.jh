@@ -2,8 +2,8 @@ entity SkyTicket {
 	DetailsJson String required // flexible ticket configuration as json
 }
 
-entity Subscription {
-	DetailsJson String required // flexible subscription configuration as json
+entity SkySubscription {
+	DetailsJson String required // flexible SkySubscription configuration as json
 }
 
 entity Billing {
@@ -20,16 +20,15 @@ entity PaymentDetails {
 }
 
 relationship ManyToOne {
-	Subscription{user} to User
-    Billing{subscription} to Subscription
+	SkySubscription{user} to User
+    Billing{SkySubscription} to SkySubscription
 }
 
 relationship OneToOne {
-	Subscription{ticket} to SkyTicket
+	SkySubscription{ticket} to SkyTicket
     Billing{details} to PaymentDetails
 }
 
-dto Subscription, User with mapstruct
+dto SkySubscription, SkyTicket with mapstruct
 
-service Subscription with serviceClass
-service User with serviceClass
+service SkySubscription, SkyTicket with serviceClass

@@ -1,0 +1,25 @@
+
+{
+    "lonskayaApp": {
+        "paymentDetails" : {
+            "home": {
+                "title": "Payment Details",
+                "createLabel": "Создать новый Payment Details",
+                "createOrEditLabel": "Создать или отредактировать Payment Details",
+                "search": "Найти Payment Details"
+            },
+            "created": "Новый Payment Details создан с идентификатором {{ param }}",
+            "updated": "Payment Details обновлен с идентификатором {{ param }}",
+            "deleted": "Payment Details удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Payment Details {{ id }}?"
+            },
+            "detail": {
+                "title": "Payment Details"
+            },
+            "invoiceUrl": "Invoice Url",
+            "paymentMethod": "Payment Method",
+            "detailsJson": "Details Json"
+        }
+    }
+}

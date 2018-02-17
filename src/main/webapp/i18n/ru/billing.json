@@ -1,0 +1,28 @@
+
+{
+    "lonskayaApp": {
+        "billing" : {
+            "home": {
+                "title": "Billings",
+                "createLabel": "Создать новый Billing",
+                "createOrEditLabel": "Создать или отредактировать Billing",
+                "search": "Найти Billing"
+            },
+            "created": "Новый Billing создан с идентификатором {{ param }}",
+            "updated": "Billing обновлен с идентификатором {{ param }}",
+            "deleted": "Billing удален с идентификатором {{ param }}",
+            "delete": {
+                "question": "Вы уверены что хотите удалить Billing {{ id }}?"
+            },
+            "detail": {
+                "title": "Billing"
+            },
+            "amount": "Amount",
+            "currency": "Currency",
+            "dueDate": "Due Date",
+            "closed": "Closed",
+            "details": "Details",
+            "skySubscription": "Sky Subscription"
+        }
+    }
+}

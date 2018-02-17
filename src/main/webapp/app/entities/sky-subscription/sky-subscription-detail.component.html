@@ -1,0 +1,36 @@
+
+<div *ngIf="skySubscription">
+    <h2><span jhiTranslate="lonskayaApp.skySubscription.detail.title">Sky Subscription</span> {{skySubscription.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="lonskayaApp.skySubscription.detailsJson">Details Json</span></dt>
+        <dd>
+            <span>{{skySubscription.detailsJson}}</span>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.skySubscription.ticket">Ticket</span></dt>
+        <dd>
+            <div *ngIf="skySubscription.ticketId">
+                <a [routerLink]="['/sky-ticket', skySubscription.ticketId]">{{skySubscription.ticketId}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="lonskayaApp.skySubscription.user">User</span></dt>
+        <dd>
+            {{skySubscription.userId}}
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'sky-subscription/'+ skySubscription.id + '/edit'} }]"
+            replaceUrl="true"
+            queryParamsHandling="merge"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

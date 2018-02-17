@@ -1,0 +1,23 @@
+
+{
+    "lonskayaApp": {
+        "skyTicket" : {
+            "home": {
+                "title": "Sky Tickets",
+                "createLabel": "Sky Ticket erstellen",
+                "createOrEditLabel": "Sky Ticket erstellen oder bearbeiten",
+                "search": "Suche nach Sky Ticket"
+            },
+            "created": "Sky Ticket erstellt mit ID {{ param }}",
+            "updated": "Sky Ticket aktualisiert mit ID {{ param }}",
+            "deleted": "Sky Ticket gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Sky Ticket {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Sky Ticket"
+            },
+            "detailsJson": "Details Json"
+        }
+    }
+}

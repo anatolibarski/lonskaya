@@ -46,6 +46,10 @@ public class CacheConfiguration {
             cm.createCache(com.lonskaya.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.lonskaya.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.lonskaya.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(com.lonskaya.domain.SkyTicket.class.getName(), jcacheConfiguration);
+            cm.createCache(com.lonskaya.domain.SkySubscription.class.getName(), jcacheConfiguration);
+            cm.createCache(com.lonskaya.domain.Billing.class.getName(), jcacheConfiguration);
+            cm.createCache(com.lonskaya.domain.PaymentDetails.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

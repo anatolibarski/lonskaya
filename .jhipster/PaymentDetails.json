@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "invoiceUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "paymentMethod",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "detailsJson",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180217060929",
+    "entityTableName": "payment_details",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}
