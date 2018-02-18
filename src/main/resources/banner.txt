@@ -1,10 +1,14 @@
 
-  ${AnsiColor.GREEN}      ██╗${AnsiColor.RED} ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
-  ${AnsiColor.GREEN}██╗   ██║${AnsiColor.RED} ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
-  ${AnsiColor.GREEN}╚██████╔╝${AnsiColor.RED} ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
-  ${AnsiColor.GREEN} ╚═════╝ ${AnsiColor.RED} ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
 
-${AnsiColor.BRIGHT_BLUE}:: JHipster 🤓  :: Running Spring Boot ${spring-boot.version} ::
-:: http://www.jhipster.tech ::${AnsiColor.DEFAULT}
+
+${AnsiColor.RED}   ######  ##    ## ##    ##  ${AnsiColor.BLUE}  ######## ####  ######  ##    ## ######## ########
+${AnsiColor.RED}  ##    ## ##   ##   ##  ##   ${AnsiColor.BLUE}     ##     ##  ##    ## ##   ##  ##          ##
+${AnsiColor.RED}  ##       ##  ##     ####    ${AnsiColor.BLUE}     ##     ##  ##       ##  ##   ##          ##
+${AnsiColor.RED}   ######  #####       ##     ${AnsiColor.BLUE}     ##     ##  ##       #####    ######      ##
+${AnsiColor.RED}        ## ##  ##      ##     ${AnsiColor.BLUE}     ##     ##  ##       ##  ##   ##          ##
+${AnsiColor.RED}  ##    ## ##   ##     ##     ${AnsiColor.BLUE}     ##     ##  ##    ## ##   ##  ##          ##
+${AnsiColor.RED}   ######  ##    ##    ##     ${AnsiColor.BLUE}     ##    ####  ######  ##    ## ########    ##
+
+
+${AnsiColor.BRIGHT_BLUE}:: SkyTicket  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.skyticket.sky.de ::${AnsiColor.DEFAULT}
